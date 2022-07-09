@@ -1,0 +1,118 @@
+---
+title: 'Stats 250: Project 1'
+author: "Instructional Team"
+date: "Summer 2022"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: true
+    theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+We have two projects this term. Projects are an opportunity for you to explore a data set by combining your understanding of the lecture material and your R knowledge learned in lab. We will provide you with an R Markdown template which you will use to create code that generates some desired output. This "desired output" might be a numerical summary, a table, a plot, or even the result of a statistical test. 
+
+Remember, *Stats 250 is not a programming class*. If you need help, circle back to the lab documents or reach out to an instructor (stop by office hours, post on piazza, or email us), we are always happy to help. For project one, we have drop-in help hours during lab times on Wednesday, July 13th.   
+
+
+### TED Talks
+
+The TED talk data set contains information about 382 TED Talks. Run the code chunk below to read in the data set.
+
+```{r readTed}
+ted <- read.csv("TED.csv")
+```
+
+You should now see a "Data" object called `ted` when you look in the global environment pane of R Studio (top right).
+
+Feel free to run the code chunk below to preview the data set.
+
+```{r previewTed}
+head(ted)
+```
+
+Use the functions you learned in Lab 2 and Lab 3 to complete the following tasks. 
+
+
+***
+
+### Section 1: Intoduction
+
+In the first section of your opinion editorial piece, you are asked to include:
+
+- an overview of the data set
+- at least two graphical displays of a single variable. 
+
+In lecture and lab, we have explored bar graphs (lab 2), histograms (lab 3) and boxplots (lab 3). Select the appropriate graphical displays for variables that will give readers a better understanding of the data set. Be sure to include a proper title (which states the type of plot and the name of the variable plotted) as well as appropriate axis labels. Feel free to add some color. Hint: feel free to copy, paste, and alter code chunks from Lab 2 or Lab 3. 
+
+```{r onevariableplot1, error = T}
+# Replace this comment with your code
+
+```
+
+
+```{r onevariableplot2, error = T}
+# Replace this comment with your code
+
+```
+
+
+```{r onevariableplot3, error = T}
+# Replace this comment with your code
+
+```
+
+
+```{r onevariableplot4, error = T}
+# Replace this comment with your code
+
+```
+
+
+***
+
+
+### Section 2: Analysis of two categorical variables of you choice 
+
+In the second section of your opinion editorial piece, you are asked to explore the relationship between two *categorical* variables of your choice numerically with a table. Hint: feel free to copy, paste, and alter code chunks from Lab 2. 
+
+```{r twovariabletable, error = T}
+# Replace this comment with your code
+
+```
+
+
+***
+
+### Section 3: Analysis of one quantiative varaible versus one categorical variable of your choice 
+
+In the third section of your opinion editorial piece, you are asked to explore the relationship of a *quantitative* variable of your choice with a *categorical* variable of your choice, both graphically (with a side-by-side boxplot) and numerically by computing summary measures by group (using the `aggregate()` function). 
+
+Be sure to include a proper title (which states the type of plot and the name of the variables plotted) as well as appropriate axis labels. Feel free to add some color. Hint: feel free to copy, paste, and alter code chunks from Lab 3. 
+
+```{r boxplot, error = T}
+# Replace this comment with your code
+
+```
+
+
+```{r summary1, error = T}
+# Replace this comment with your code
+
+```
+
+
+```{r summary2, error = T}
+# Replace this comment with your code
+
+```
+
+
+Don't forget to include screenshots of your graphical displays, table and numerical summary in your opinion editorial piece. 
+
